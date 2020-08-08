@@ -107,8 +107,9 @@ jobs:
 
           # 编译ac3100:
           # cat >> .config <<EOF
-          # CONFIG_TARGET_bcm53xx=y
-          # CONFIG_TARGET_bcm53xx_generic=y
+          # CONFIG_TARGET_ramips=y
+          # CONFIG_TARGET_ramips_mt7621=y
+          # CONFIG_TARGET_ramips_mt7621_DEVICE_xiaomi_redmi-router-ac2100=y
           # EOF
 
           # 固件压缩:
